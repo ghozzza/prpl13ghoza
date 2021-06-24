@@ -1,0 +1,9 @@
+CREATE DATABASE prak11
+
+CREATE TABLE mhs (
+	nim varchar(10) NOT NULL,
+    nama varchar(30) NOT NULL,
+    tgllahir date,
+	alamat text,
+	PRIMARY KEY(nim)
+);
